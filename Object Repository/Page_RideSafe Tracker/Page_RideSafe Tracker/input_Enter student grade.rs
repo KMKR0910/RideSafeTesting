@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Admin</name>
+   <name>input_Enter student grade</name>
    <tag></tag>
-   <elementGuidId>91f51412-fed2-43d9-8a50-44bd8f20165b</elementGuidId>
+   <elementGuidId>39cc3883-babd-4edf-a7dc-1b5ed061c8fb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.rounded-md:nth-child(3)</value>
+         <value>[placeholder=&quot;Enter\ student\ grade&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 3)]</value>
+         <value>//*[@placeholder = 'Enter student grade']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Admin' or . = 'Admin')]</value>
+         <value>//*[@id = 'qj9ymnah8' and @placeholder = 'Enter student grade']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Admin&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Enter student grade&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,71 +32,81 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>cda6d2ae-75b7-4045-8fba-28f13247f7a8</webElementGuid>
+      <value>input</value>
+      <webElementGuid>5b3fb211-c33c-414c-ab03-8d8faa340b5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9407e3c5-513e-49dc-8810-3143c17120cf</webElementGuid>
+      <value>qj9ymnah8</value>
+      <webElementGuid>10ffbffd-27e1-46d9-a15d-fe15f46a0c5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>flex flex-col items-center justify-center py-2 px-2 rounded-md text-sm font-medium transition-all text-gray-500 hover:text-gray-700</value>
-      <webElementGuid>f0078095-1115-4b50-bbed-61aae3c239cf</webElementGuid>
+      <value>
+          block w-full h-10 px-4 rounded-xl border border-gray-300 shadow-sm
+          text-sm transition-all duration-200
+          appearance-none outline-none
+          focus:outline-none focus:shadow-none
+          focus:border-violet-500 focus:ring-2 focus:ring-violet-500/10
+          disabled:bg-gray-50 disabled:text-gray-500
+          
+          
+          bg-white border border-gray-200 rounded-xl shadow-sm
+        </value>
+      <webElementGuid>09bed947-9686-4f01-934b-c9eacc9fcc5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Admin</value>
-      <webElementGuid>61480c10-22e1-427b-821b-6fc341a03a7c</webElementGuid>
+      <value>Enter student grade</value>
+      <webElementGuid>33b82d0c-f1de-4b9f-9290-119ef1ec668e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-d0fd85f234134cd75428f3dce1a24743</value>
-      <webElementGuid>db059a2a-57ed-4457-a434-c58c349cf46e</webElementGuid>
+      <value>md5.v1-2493ae96f9f9d638582aa90365330dd1</value>
+      <webElementGuid>46090676-abe5-4da0-88d1-7a0a64cfafcd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 3)]</value>
-      <webElementGuid>6c043c70-8f0b-450c-a772-2ad42a2ca61e</webElementGuid>
+      <value>//*[@placeholder = 'Enter student grade']</value>
+      <webElementGuid>ee208000-bd73-4c3e-9050-b4156478d6f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 3)]</value>
-      <webElementGuid>b6177e0f-d034-4fb1-ad15-0cf5b3f2b1ee</webElementGuid>
+      <value>//*[@placeholder = 'Enter student grade']</value>
+      <webElementGuid>8c9ee8f2-7199-4440-9e83-2ad386a9b19e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>554fa82b-af70-441c-b1ec-839244b73180</webElementGuid>
+      <value>//input[@id = 'qj9ymnah8' and @placeholder = 'Enter student grade']</value>
+      <webElementGuid>6a2bb972-8a75-4e3e-8b27-336dfb7e25ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' shadow-sm ')]</value>
-      <webElementGuid>cbc52ccf-02f6-41ca-915e-4db25b6c5756</webElementGuid>
+      <value>//input[@id = 'eorzpkf4i' and @placeholder = 'Enter student grade']</value>
+      <webElementGuid>4a4487d6-0311-4487-b607-cfc4ae9cc865</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Driver</name>
+   <name>a_Register</name>
    <tag></tag>
-   <elementGuidId>54182d4b-c9ef-4849-8708-ddb912c420ad</elementGuidId>
+   <elementGuidId>d9a09283-b675-4653-961b-dbf303683102</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Driver' or . = 'Driver')]</value>
+         <value>//*[@href = '/registerReq' and (text() = 'Register' or . = 'Register')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.rounded-md:nth-child(2)</value>
+         <value>[href=&quot;\/registerReq&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 2)]</value>
+         <value>//*[@href = '/registerReq']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Driver&quot;i]</value>
+         <value>internal:role=link[name=&quot;Register&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,63 +32,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>b2a1cd28-9f2e-4d21-9757-35f67019e3e7</webElementGuid>
+      <value>a</value>
+      <webElementGuid>ebb8739c-159e-403a-ba62-a4dda2403cb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>1b94d9a7-afd0-487d-aa3f-b714816118f4</webElementGuid>
+      <value>/registerReq</value>
+      <webElementGuid>626c6b38-40b4-4833-88ac-749eafd0739b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>flex flex-col items-center justify-center py-2 px-2 rounded-md text-sm font-medium transition-all text-gray-500 hover:text-gray-700</value>
-      <webElementGuid>abc6a36e-2cab-4444-8f5a-93f1f68430a6</webElementGuid>
+      <value>text-purple-700 hover:underline</value>
+      <webElementGuid>ba2ac5b7-6507-403f-a3b2-ba1f986c2e98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Driver</value>
-      <webElementGuid>377e20de-8f80-40ac-a218-9fee6789b055</webElementGuid>
+      <value>Register</value>
+      <webElementGuid>6870fa38-47e3-42f9-ac6b-5869a653e926</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-4987390d9685d42b04e504a89254f136</value>
-      <webElementGuid>adaca587-142a-4683-b3a1-4c95ab1e5212</webElementGuid>
+      <value>md5.v1-19adf2f2c08b6748464cbb6e8af5ad00</value>
+      <webElementGuid>d6ce6854-d755-45a1-bd66-9263df823f89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 2)]</value>
-      <webElementGuid>5219b0ed-d2ca-487a-a3ac-2198a9c87013</webElementGuid>
+      <value>//*[@href = '/registerReq']</value>
+      <webElementGuid>03f5842a-5dbe-4dcd-8918-ecb35507a3fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 2)]</value>
-      <webElementGuid>01b36c3f-900f-44b7-a520-367dad1ede88</webElementGuid>
+      <value>//*[@href = '/registerReq']</value>
+      <webElementGuid>4b4a9340-9f76-44df-9579-99275d835cf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Driver' or . = 'Driver')]</value>
-      <webElementGuid>e02a8863-8370-4a64-8401-a45b5cc9edb8</webElementGuid>
+      <value>//a[@href = '/registerReq' and (text() = 'Register' or . = 'Register')]</value>
+      <webElementGuid>4dc81943-42df-4c3f-b3e3-a3709826463f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

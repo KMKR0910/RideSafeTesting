@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Admin</name>
+   <name>input_Enter student index</name>
    <tag></tag>
-   <elementGuidId>91f51412-fed2-43d9-8a50-44bd8f20165b</elementGuidId>
+   <elementGuidId>00728bd7-8005-49cf-aea8-fd432dc888d3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.rounded-md:nth-child(3)</value>
+         <value>[placeholder=&quot;Enter\ student\ index&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 3)]</value>
+         <value>//*[@placeholder = 'Enter student index']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Admin' or . = 'Admin')]</value>
+         <value>//*[@id = 'pnk4leod3' and @placeholder = 'Enter student index']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Admin&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Enter student index&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,71 +32,81 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>cda6d2ae-75b7-4045-8fba-28f13247f7a8</webElementGuid>
+      <value>input</value>
+      <webElementGuid>185439f9-8097-4ae8-bfe5-c471b2ce06f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9407e3c5-513e-49dc-8810-3143c17120cf</webElementGuid>
+      <value>pnk4leod3</value>
+      <webElementGuid>ba270866-b44c-4674-9d9e-1c554eeebcbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>flex flex-col items-center justify-center py-2 px-2 rounded-md text-sm font-medium transition-all text-gray-500 hover:text-gray-700</value>
-      <webElementGuid>f0078095-1115-4b50-bbed-61aae3c239cf</webElementGuid>
+      <value>
+          block w-full h-10 px-4 rounded-xl border border-gray-300 shadow-sm
+          text-sm transition-all duration-200
+          appearance-none outline-none
+          focus:outline-none focus:shadow-none
+          focus:border-violet-500 focus:ring-2 focus:ring-violet-500/10
+          disabled:bg-gray-50 disabled:text-gray-500
+          
+          
+          bg-white border border-gray-200 rounded-xl shadow-sm
+        </value>
+      <webElementGuid>6deb2e5e-e2eb-4fd3-a3f2-55d2d1c01b48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Admin</value>
-      <webElementGuid>61480c10-22e1-427b-821b-6fc341a03a7c</webElementGuid>
+      <value>Enter student index</value>
+      <webElementGuid>0b52d3cc-28db-4e0e-8fed-9d6f2372815f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-d0fd85f234134cd75428f3dce1a24743</value>
-      <webElementGuid>db059a2a-57ed-4457-a434-c58c349cf46e</webElementGuid>
+      <value>md5.v1-d063e44adebf50e28baa2606f7acc433</value>
+      <webElementGuid>1886c96f-cf71-4b56-b6df-0819daa2099b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 3)]</value>
-      <webElementGuid>6c043c70-8f0b-450c-a772-2ad42a2ca61e</webElementGuid>
+      <value>//*[@placeholder = 'Enter student index']</value>
+      <webElementGuid>1b33aa5e-e431-4433-a72e-2829f3cccbab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 3)]</value>
-      <webElementGuid>b6177e0f-d034-4fb1-ad15-0cf5b3f2b1ee</webElementGuid>
+      <value>//*[@placeholder = 'Enter student index']</value>
+      <webElementGuid>ee611742-e982-479c-804a-b43d5f3a22bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>554fa82b-af70-441c-b1ec-839244b73180</webElementGuid>
+      <value>//input[@id = 'pnk4leod3' and @placeholder = 'Enter student index']</value>
+      <webElementGuid>60be9b92-bb71-4d3d-9d54-8f552b8f6442</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' shadow-sm ')]</value>
-      <webElementGuid>cbc52ccf-02f6-41ca-915e-4db25b6c5756</webElementGuid>
+      <value>//input[@id = 'tcupiw64v' and @placeholder = 'Enter student index']</value>
+      <webElementGuid>270c7892-0a87-47f3-99ef-d1e5caf9fb93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

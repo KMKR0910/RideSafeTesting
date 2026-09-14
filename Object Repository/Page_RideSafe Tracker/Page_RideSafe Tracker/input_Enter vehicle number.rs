@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Driver</name>
+   <name>input_Enter vehicle number</name>
    <tag></tag>
-   <elementGuidId>54182d4b-c9ef-4849-8708-ddb912c420ad</elementGuidId>
+   <elementGuidId>f2256304-8cdb-40b5-820f-16d6f76770b2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Driver' or . = 'Driver')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>.rounded-md:nth-child(2)</value>
+         <value>[placeholder=&quot;Enter\ vehicle\ number&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 2)]</value>
+         <value>//*[@placeholder = 'Enter vehicle number']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Driver&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Enter vehicle number&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,63 +28,73 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>b2a1cd28-9f2e-4d21-9757-35f67019e3e7</webElementGuid>
+      <value>input</value>
+      <webElementGuid>6e9dba9e-a41c-4353-ae7a-0ff2db48a533</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>1b94d9a7-afd0-487d-aa3f-b714816118f4</webElementGuid>
+      <value>7p82dvtr2</value>
+      <webElementGuid>f86ae696-212d-4213-baf0-8d8fc2bc2169</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>flex flex-col items-center justify-center py-2 px-2 rounded-md text-sm font-medium transition-all text-gray-500 hover:text-gray-700</value>
-      <webElementGuid>abc6a36e-2cab-4444-8f5a-93f1f68430a6</webElementGuid>
+      <value>
+          block w-full h-10 px-4 rounded-xl border border-gray-300 shadow-sm
+          text-sm transition-all duration-200
+          appearance-none outline-none
+          focus:outline-none focus:shadow-none
+          focus:border-violet-500 focus:ring-2 focus:ring-violet-500/10
+          disabled:bg-gray-50 disabled:text-gray-500
+          
+          
+          bg-white border border-gray-200 rounded-xl shadow-sm
+        </value>
+      <webElementGuid>7a74a3e7-60d3-4836-ad18-2d1db844f765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Driver</value>
-      <webElementGuid>377e20de-8f80-40ac-a218-9fee6789b055</webElementGuid>
+      <value>Enter vehicle number</value>
+      <webElementGuid>b1bed351-ec66-49d8-a15b-cb4d78f17ab0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-4987390d9685d42b04e504a89254f136</value>
-      <webElementGuid>adaca587-142a-4683-b3a1-4c95ab1e5212</webElementGuid>
+      <value>md5.v1-05852529b7327f4d714467d3e4f2028c</value>
+      <webElementGuid>14303bc0-ecdb-47e5-bc34-89b8e326c91a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 2)]</value>
-      <webElementGuid>5219b0ed-d2ca-487a-a3ac-2198a9c87013</webElementGuid>
+      <value>//*[@placeholder = 'Enter vehicle number']</value>
+      <webElementGuid>0c779c4c-33e0-44f8-b32f-a16118e8e4b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 2)]</value>
-      <webElementGuid>01b36c3f-900f-44b7-a520-367dad1ede88</webElementGuid>
+      <value>//*[@placeholder = 'Enter vehicle number']</value>
+      <webElementGuid>bbfaf24e-057c-41a3-9abe-ef57b1c818a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Driver' or . = 'Driver')]</value>
-      <webElementGuid>e02a8863-8370-4a64-8401-a45b5cc9edb8</webElementGuid>
+      <value>//input[@id = '7p82dvtr2' and @placeholder = 'Enter vehicle number']</value>
+      <webElementGuid>9603d4f2-843b-4359-ac37-7e95820e1047</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

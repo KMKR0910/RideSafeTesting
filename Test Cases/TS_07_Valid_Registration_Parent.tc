@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS_07_Valid_Registration_Parent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0d0d2fb3-67d8-414f-ba4f-cddef098817a</testCaseGuid>
+</TestCaseEntity>

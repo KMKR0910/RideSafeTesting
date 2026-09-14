@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Driver</name>
+   <name>input_Enter emergency contact</name>
    <tag></tag>
-   <elementGuidId>54182d4b-c9ef-4849-8708-ddb912c420ad</elementGuidId>
+   <elementGuidId>a5c40b00-fc92-4f62-87b2-64593e8449ed</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Driver' or . = 'Driver')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>.rounded-md:nth-child(2)</value>
+         <value>[placeholder=&quot;Enter\ emergency\ contact&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 2)]</value>
+         <value>//*[@placeholder = 'Enter emergency contact']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Driver&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Enter emergency contact&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,63 +28,73 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>b2a1cd28-9f2e-4d21-9757-35f67019e3e7</webElementGuid>
+      <value>input</value>
+      <webElementGuid>e9751d35-a57f-4ecc-9bd0-5feaed52b14c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>1b94d9a7-afd0-487d-aa3f-b714816118f4</webElementGuid>
+      <value>ip06qaih3</value>
+      <webElementGuid>6e075e60-93b4-45c1-a5f2-45b43c97434e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>flex flex-col items-center justify-center py-2 px-2 rounded-md text-sm font-medium transition-all text-gray-500 hover:text-gray-700</value>
-      <webElementGuid>abc6a36e-2cab-4444-8f5a-93f1f68430a6</webElementGuid>
+      <value>
+          block w-full h-10 px-4 rounded-xl border border-gray-300 shadow-sm
+          text-sm transition-all duration-200
+          appearance-none outline-none
+          focus:outline-none focus:shadow-none
+          focus:border-violet-500 focus:ring-2 focus:ring-violet-500/10
+          disabled:bg-gray-50 disabled:text-gray-500
+          
+          
+          bg-white border border-gray-200 rounded-xl shadow-sm
+        </value>
+      <webElementGuid>cf128e6e-b20c-4bad-a623-3685d4d634c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Driver</value>
-      <webElementGuid>377e20de-8f80-40ac-a218-9fee6789b055</webElementGuid>
+      <value>Enter emergency contact</value>
+      <webElementGuid>8afc076b-80f9-446e-ba80-c97d946f79a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-4987390d9685d42b04e504a89254f136</value>
-      <webElementGuid>adaca587-142a-4683-b3a1-4c95ab1e5212</webElementGuid>
+      <value>md5.v1-9d8036dc3d2beecad9f2e7f2ff5b8441</value>
+      <webElementGuid>ecd54dfa-f194-42a0-9cab-dad7b27d5b22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 2)]</value>
-      <webElementGuid>5219b0ed-d2ca-487a-a3ac-2198a9c87013</webElementGuid>
+      <value>//*[@placeholder = 'Enter emergency contact']</value>
+      <webElementGuid>e6cb2f3d-1662-4b23-9392-f1ca2362646c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 2)]</value>
-      <webElementGuid>01b36c3f-900f-44b7-a520-367dad1ede88</webElementGuid>
+      <value>//*[@placeholder = 'Enter emergency contact']</value>
+      <webElementGuid>2ebf16d7-5360-4505-8ea5-6192300bc5bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Driver' or . = 'Driver')]</value>
-      <webElementGuid>e02a8863-8370-4a64-8401-a45b5cc9edb8</webElementGuid>
+      <value>//input[@id = 'ip06qaih3' and @placeholder = 'Enter emergency contact']</value>
+      <webElementGuid>78496acf-f8d8-4968-95e8-5754218d6fe6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

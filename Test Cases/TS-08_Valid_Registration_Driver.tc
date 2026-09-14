@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS-08_Valid_Registration_Driver</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>439541db-0eb8-47b2-8d24-a4b6efe9c5aa</testCaseGuid>
+</TestCaseEntity>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Admin</name>
+   <name>input_Enter address</name>
    <tag></tag>
-   <elementGuidId>91f51412-fed2-43d9-8a50-44bd8f20165b</elementGuidId>
+   <elementGuidId>ec9edf2e-8817-45d5-9dc7-6fb19b077bfb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.rounded-md:nth-child(3)</value>
+         <value>[placeholder=&quot;Enter\ address&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 3)]</value>
+         <value>//*[@placeholder = 'Enter address']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Admin' or . = 'Admin')]</value>
+         <value>//*[@id = '61gos3c0w' and @placeholder = 'Enter address']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Admin&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Enter address&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,71 +32,81 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>cda6d2ae-75b7-4045-8fba-28f13247f7a8</webElementGuid>
+      <value>input</value>
+      <webElementGuid>f6864666-6152-466c-8363-ef2a2f1178a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9407e3c5-513e-49dc-8810-3143c17120cf</webElementGuid>
+      <value>61gos3c0w</value>
+      <webElementGuid>37872791-f443-47af-b462-7d7bbc8b3112</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>flex flex-col items-center justify-center py-2 px-2 rounded-md text-sm font-medium transition-all text-gray-500 hover:text-gray-700</value>
-      <webElementGuid>f0078095-1115-4b50-bbed-61aae3c239cf</webElementGuid>
+      <value>
+          block w-full h-10 px-4 rounded-xl border border-gray-300 shadow-sm
+          text-sm transition-all duration-200
+          appearance-none outline-none
+          focus:outline-none focus:shadow-none
+          focus:border-violet-500 focus:ring-2 focus:ring-violet-500/10
+          disabled:bg-gray-50 disabled:text-gray-500
+          
+          
+          bg-white border border-gray-200 rounded-xl shadow-sm
+        </value>
+      <webElementGuid>18c47f8d-197b-4f35-82a9-dd5ff7fc066c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Admin</value>
-      <webElementGuid>61480c10-22e1-427b-821b-6fc341a03a7c</webElementGuid>
+      <value>Enter address</value>
+      <webElementGuid>0ec05b7c-f46b-4531-ae34-94f02f36ee35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-d0fd85f234134cd75428f3dce1a24743</value>
-      <webElementGuid>db059a2a-57ed-4457-a434-c58c349cf46e</webElementGuid>
+      <value>md5.v1-a687b6ba7e990a631b42283eb71e1394</value>
+      <webElementGuid>06f1b98c-05a8-4ed5-9cfb-61ff48fe2551</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 3)]</value>
-      <webElementGuid>6c043c70-8f0b-450c-a772-2ad42a2ca61e</webElementGuid>
+      <value>//*[@placeholder = 'Enter address']</value>
+      <webElementGuid>ea75c019-5fd8-4a4d-84d1-4941aea84787</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and (position() = 3)]</value>
-      <webElementGuid>b6177e0f-d034-4fb1-ad15-0cf5b3f2b1ee</webElementGuid>
+      <value>//*[@placeholder = 'Enter address']</value>
+      <webElementGuid>7fdd0b32-8716-400e-afa0-fa847b14d480</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>554fa82b-af70-441c-b1ec-839244b73180</webElementGuid>
+      <value>//input[@id = '61gos3c0w' and @placeholder = 'Enter address']</value>
+      <webElementGuid>9b7308a7-9210-4c63-957a-04c85a07c7af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' shadow-sm ')]</value>
-      <webElementGuid>cbc52ccf-02f6-41ca-915e-4db25b6c5756</webElementGuid>
+      <value>//input[@id = 'fcwip7ywo' and @placeholder = 'Enter address']</value>
+      <webElementGuid>355358fd-c13a-4cf2-9b5d-e2ebc9ef54ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

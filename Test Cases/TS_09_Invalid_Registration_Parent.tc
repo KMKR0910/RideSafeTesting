@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS_09_Invalid_Registration_Parent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e5a56ea2-8d38-40ac-9df2-c1e62578a357</testCaseGuid>
+</TestCaseEntity>
