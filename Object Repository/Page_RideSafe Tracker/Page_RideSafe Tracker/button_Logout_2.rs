@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Logout_2</name>
+   <tag></tag>
+   <elementGuidId>8ca1f8d0-729e-48db-8c07-3f00a45dfcc6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Logout' or . = 'Logout')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.sm\:flex.inline-flex</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex ') and contains(concat(' ', normalize-space(@class), ' '), ' inline-flex ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Logout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fd31baee-e2d7-4775-b13d-c22f9c20c845</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center justify-center rounded-xl font-medium transition-all duration-300 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed relative overflow-hidden text-gray-600 hover:text-purple-700 hover:bg-white/50 backdrop-blur-md hover:scale-[1.02] focus:ring-purple-400 px-3 py-1.5 text-sm hidden sm:flex hover:bg-red-50 hover:text-red-600</value>
+      <webElementGuid>77aa1375-dbe5-4378-a14c-4a88de907153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logout</value>
+      <webElementGuid>c8577fea-b96a-43c3-99d6-9940e6f9acbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-766354716a7c485c668766ee534565d3</value>
+      <webElementGuid>9a489d69-ce5e-4f06-880e-d7c1c54b01b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex ') and contains(concat(' ', normalize-space(@class), ' '), ' inline-flex ')]</value>
+      <webElementGuid>2479d8b2-f351-4084-ba8d-78c13bc43deb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex ') and contains(concat(' ', normalize-space(@class), ' '), ' inline-flex ')]</value>
+      <webElementGuid>8bde402c-7029-42b4-91d1-e5664c26386e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>ef57b1a7-f53d-4bbe-aadd-92047f36cae0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

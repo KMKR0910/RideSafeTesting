@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Logout</name>
+   <tag></tag>
+   <elementGuidId>86310cd2-0924-4f8a-b4f9-d16f56ad1b7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Logout' or . = 'Logout')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.rounded-xl.backdrop-blur-md.sm\:flex</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' backdrop-blur-md ') and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Logout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1b4956ca-c4f4-404c-a3a5-194e565d36fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center justify-center rounded-xl font-medium transition-all duration-300 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed relative overflow-hidden text-gray-600 hover:text-purple-700 hover:bg-white/50 backdrop-blur-md hover:scale-[1.02] focus:ring-purple-400 px-3 py-1.5 text-sm hidden sm:flex hover:bg-red-50 hover:text-red-600</value>
+      <webElementGuid>b4b13f57-ad2f-4813-8404-89c273b72c4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logout</value>
+      <webElementGuid>f3eb491c-70f2-4de1-8765-1ac5dceb9b44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c47e62d574caaf5416bd2dde60285199</value>
+      <webElementGuid>496ccb5d-a0f5-4c36-87ba-4340541aff18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' backdrop-blur-md ') and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex ')]</value>
+      <webElementGuid>7dcaf8df-4229-48e3-be46-62acbd3aa06a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' backdrop-blur-md ') and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex ')]</value>
+      <webElementGuid>d9c73ac3-de81-47fb-9ef8-d40dd4884a03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>c55358b2-1b9e-4eba-a1a7-e8a402299f5c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

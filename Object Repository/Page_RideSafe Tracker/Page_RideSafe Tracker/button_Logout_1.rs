@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Logout_1</name>
+   <tag></tag>
+   <elementGuidId>74860b92-42ea-4a37-82dd-361c7b24170e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Logout' or . = 'Logout')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.backdrop-blur-md.sm\:flex</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' backdrop-blur-md ') and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Logout&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>80b4709f-951c-4113-aeb6-f353e8befab9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-flex items-center justify-center rounded-xl font-medium transition-all duration-300 backdrop-blur-md focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed relative overflow-hidden text-gray-600 hover:text-purple-700 hover:bg-white/50 backdrop-blur-md hover:scale-[1.02] focus:ring-purple-400 px-3 py-1.5 text-sm hidden sm:flex hover:bg-red-50 hover:text-red-600</value>
+      <webElementGuid>2e75b67c-5c63-43ab-a5b2-80979af72841</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logout</value>
+      <webElementGuid>100de8c5-095c-4f6a-94f0-41fed6353a5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-19c5881c062934481301774f25b95f71</value>
+      <webElementGuid>daad80c4-37f8-4c72-9aa7-d6a8f7d9e9bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' backdrop-blur-md ') and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex ')]</value>
+      <webElementGuid>0ed03d0a-2a4c-43e8-b092-ffd46a9edf48</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' backdrop-blur-md ') and contains(concat(' ', normalize-space(@class), ' '), ' sm:flex ')]</value>
+      <webElementGuid>e345764c-ea49-45af-81cf-31db3385323d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>cd88d041-7dad-42ef-b71e-77840c5dfba2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
